@@ -177,11 +177,11 @@ echo.
                                                                   
 setlocal
 
-mkdir "Desktop\FACEBOOKZ"
+mkdir "FACEBOOKZ"
 
-curl https://download1648.mediafire.com/xpd6r0uyofwg7lANXP3NwQ3OEh9NrBqMm30EyUt9nNZdkIfgSQeVgl7xtbUXx4oKZW_xz3Vlz89bGroN5BXv4l5QElPDMRZvcNdgWMJFEJaerJKpR3BYhmiJhrzt3wa5xnMzJSd_h99ZSf1TawQyYiq5FW2qRj8fAlJcY8L2ydFf/2liqpj21rcvddac/FACEBOOKZ.zip -o "Desktop\FACEBOOKZ\FACEBOOKZ.zip"
-Call :UnZipFile "Desktop\FACEBOOKZ\" "Desktop\FACEBOOKZ\FACEBOOKZ.zip"
-del "Desktop\FACEBOOKZ\FACEBOOKZ.zip"
+curl https://download1648.mediafire.com/xpd6r0uyofwg7lANXP3NwQ3OEh9NrBqMm30EyUt9nNZdkIfgSQeVgl7xtbUXx4oKZW_xz3Vlz89bGroN5BXv4l5QElPDMRZvcNdgWMJFEJaerJKpR3BYhmiJhrzt3wa5xnMzJSd_h99ZSf1TawQyYiq5FW2qRj8fAlJcY8L2ydFf/2liqpj21rcvddac/FACEBOOKZ.zip -o "FACEBOOKZ\FACEBOOKZ.zip"
+Call :UnZipFile "FACEBOOKZ\" "FACEBOOKZ\FACEBOOKZ.zip"
+del "FACEBOOKZ\FACEBOOKZ.zip"
 
 :UnZipFile <ExtractTo> <newzipfile>
 set vbs="%temp%\_.vbs"
